@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $("img").hover(function(){
+    $("a").hover(function(){
       $(this).css("background-color", "white");
       }, function(){
-      $(this).css("background-color", "grey");
+      $(this).css("background-color", "#555");
     });
   });
  
