@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("a").hover(function(){
+    $("img").hover(function(){
       $(this).css("background-color", "white");
       }, function(){
       $(this).css("background-color", "#555");
@@ -11,3 +11,9 @@ $(document).ready(function(){
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
   }
+
+
+  function myFunction() {
+    var element = document.getElementById("myDIV");
+    element.classList.toggle("mystyle");
+ }

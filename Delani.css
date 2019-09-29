@@ -135,8 +135,13 @@ input[type=text]:focus {
   from {opacity: 0;}
   to {opacity:1 ;
   }
+}
 
-
-  a:hover {
-    background-color: #555;
-  }
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
