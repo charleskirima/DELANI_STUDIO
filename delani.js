@@ -7,6 +7,7 @@ $(document).ready(function(){
   });
  
 
-  function showName() {
-    alert("Message recieved...Thank you for the input");
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
   }
