@@ -9,19 +9,18 @@
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3em;
+  
 }
 
 .bottom {
     position: absolute;
-    bottom: 10px;
-    right: 50%;
-    left: 50%;
-    padding: 3em;
-
+    bottom: 50px;
+    right: 51%;
+    left: 49%;
+    
 }
   
 
